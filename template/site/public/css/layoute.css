@@ -1,0 +1,20 @@
+header {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  background-color: aqua;
+  block-size: 100px;
+  padding: 0px;
+  margin: 0px; }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  background-color: yellow;
+  block-size: 650px; }
+
+div.login {
+  grid-column: 5/6;
+  margin: auto;
+  font-size: 25px; }

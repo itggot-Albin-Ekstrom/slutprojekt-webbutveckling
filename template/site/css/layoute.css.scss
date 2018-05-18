@@ -2,7 +2,7 @@ header{
     display: grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(1,1fr);
-    background-color: aqua;
+    background-color:#F7005B;
     block-size: 100px;
     padding: 0px;
     margin: 0px;
@@ -12,7 +12,7 @@ header{
     display: grid;
     grid-template-columns: repeat(9,1fr);
     grid-template-rows: repeat(8,1fr);
-    background-color: yellow;
+    background-color:#333341;
     block-size: 650px;
 }
 
@@ -22,3 +22,39 @@ div.login{
     font-size: 25px;
 }
 
+div.skapa-konto{
+    grid-column: 6/7;
+    margin: auto;
+    font-size: 25px;
+}
+
+div.adoptera-katt{
+    grid-row: 5/6;
+    grid-column: 3/5;
+    margin: auto;
+    font-size: 25px;
+}
+
+div.lämna-katt{
+    grid-row: 5/6;
+    grid-column: 6/8;
+    margin: auto;
+    font-size: 25px;
+
+}
+
+img.image1{
+    grid-row: 2/5;
+    grid-column: 1/4;
+    size: 500px
+}
+
+img.image2{
+    grid-row: 2/5;
+    grid-column: 4/7;
+}
+
+img.image3{
+    grid-row: 2/5;
+    grid-column: 7/10
+}

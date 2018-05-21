@@ -21,10 +21,7 @@ div.bar {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  background-color: #F7005B;
-  height: 25px;
-  width: 1300px;
-  margin: auto; }
+  background-color: #F7005B; }
 
 div.login {
   grid-column: 5/6;
@@ -38,17 +35,17 @@ div.skapa-konto {
 
 div.adoptera-katt {
   grid-row: 5/6;
-  grid-column: 3/5;
+  grid-column: 3/4;
   margin: auto;
   font-size: 25px;
-  height: 0px; }
+  color: white; }
 
 div.lämna-katt {
   grid-row: 5/6;
-  grid-column: 6/8;
+  grid-column: 4/5;
   margin: auto;
   font-size: 25px;
-  height: 0px; }
+  color: white; }
 
 img.image1 {
   grid-row: 2/5;
@@ -64,3 +61,8 @@ img.image3 {
   grid-row: 2/5;
   grid-column: 7/10;
   width: 420px; }
+
+p {
+  grid-row: 7/8;
+  grid-column: 4/7;
+  color: white; }

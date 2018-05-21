@@ -57,19 +57,19 @@ div.lämna-katt{
 img.image1{
     grid-row: 2/5;
     grid-column: 1/4;
-    width: 420px;
+    width: 300px;
 }
 
 img.image2{
     grid-row: 2/5;
     grid-column: 4/7;
-    width: 420px;
+    width: 300px;
 }
 
 img.image3{
     grid-row: 2/5;
     grid-column: 7/10;
-    width: 420px;
+    width: 300px;
 }
 
 p{
@@ -105,4 +105,8 @@ i.material-icons{
     align-items: center;
     margin: auto;
     font-size: 40px;
+}
+
+img.image4{
+    grid-row: 1/2
 }

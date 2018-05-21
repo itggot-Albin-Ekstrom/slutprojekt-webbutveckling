@@ -4,23 +4,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/layoute.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <header>
-        <div class="hamburger-meny">
-            <div class="information"><link rel="stylesheet" href="information"></div>
-            <div class="cat-galleri"><link rel="stylesheet" href="cat-galleri"></div>
-        </div>
+        <i class="material-icons outmenu" onclick="toggleMenu()">menu</i>
+        
+            <div class="hamburgare_meny">
+                <i class="material-icons inmenu" onclick="toggleMenu()">menu</i>
+                <div class="information"><link rel="stylesheet" href="information"></div>
+                <div class="cat-galleri"><link rel="stylesheet" href="Kattgalleri.html.erb">Kattgalleri</div>
+            </div>
 
         <div class="login"><a href="login.html">Login</a></div> 
-            <div class="skapa-konto"><a href="skapa-konto.html">Skapa Konto</a></div>        
+        <div class="skapa-konto"><a href="skapa-konto.html">Skapa Konto</a></div>        
     </header>
-
     
     <main>
         <%= yield %>
     </main>
+
+    <script src="js/hamburgare_meny.js"></script>
     
 </body>
 </html>

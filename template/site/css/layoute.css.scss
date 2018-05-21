@@ -77,3 +77,32 @@ p{
     grid-column: 4/7;
     color: white;
 }
+
+.hamburgare_meny{
+    display: none;  
+    grid-template-columns: (3, 1fr);
+    grid-template-rows: (4, 1fr);
+    width: 103px;
+    height: 336px;
+    background-color: #C5DEFF;
+    position: absolute; 
+}
+
+.show{
+    display: grid;
+}
+
+i.material-icons{
+    grid-row: 1/1;
+    align-content: center;
+    margin: auto;
+    font-size: 40px;
+}
+
+.outmenu{
+    grid-row: 1/1;
+    position: absolute;
+    align-items: center;
+    margin: auto;
+    font-size: 40px;
+}

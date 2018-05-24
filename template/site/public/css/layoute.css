@@ -16,7 +16,7 @@ header {
   block-size: 650px; }
 
 div.bar {
-  grid-row: 6/7;
+  grid-row: 5/6;
   grid-column: 1/10;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -65,10 +65,11 @@ img.image3 {
   width: 500px; }
 
 p {
-  grid-row: 7/9;
+  grid-row: 6/8;
   grid-column: 4/7;
   color: white;
-  font-size: 30px; }
+  font-size: 30px;
+  margin: auto; }
 
 .hamburgare_meny {
   display: none;
@@ -108,39 +109,46 @@ img.image6 {
   grid-column: 6/8; }
 
 p.Mans {
-  grid-row: 4/6;
+  grid-row: 2/3;
   grid-column: 1/2; }
 
 p.Runa {
-  grid-row: 4/6;
-  grid-column: 2/3; }
-
-p.Elof {
-  grid-row: 4/6;
+  grid-row: 2/3;
   grid-column: 3/4; }
 
-p.Lisa {
-  grid-row: 4/6;
-  grid-column: 4/5; }
+p.Elof {
+  grid-row: 5/6;
+  grid-column: 1/2; }
 
-p.Pelle {
-  grid-row: 4/6;
-  grid-column: 6/7; }
+p.Lisa {
+  grid-row: 5/6;
+  grid-column: 3/4; }
 
 p.oppetider {
   grid-row: 2/3;
   grid-column: 3/5;
-  height: 40px;
-  width: 10px;
+  font-size: 50px;
   margin: auto; }
 
 p.Telefon {
-  grid-row: 2/3;
-  grid-column: 6/8;
-  height: 40px;
-  width: 10px;
+  grid-row: 5/7;
+  grid-column: 3/5;
+  font-size: 40px;
   margin: auto; }
 
 p.Information {
-  grid-row: 5/7;
-  grid-column: 4/7; }
+  grid-row: 2/3;
+  grid-column: 6/8;
+  font-size: 25px; }
+
+img.image8 {
+  grid-row: 4/5;
+  grid-column: 1/2; }
+
+img.image11 {
+  grid-row: 4/5;
+  grid-column: 3/4; }
+
+img.image9 {
+  grid-row: 1/2;
+  grid-column: 3/4; }

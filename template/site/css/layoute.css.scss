@@ -37,16 +37,33 @@ div.skapa-konto{
     grid-column: 6/7;
     margin: auto;
     font-size: 25px;
-    color: white;
-    text-decoration: none;
 }
 
 div.adoptera-katt{
     grid-column: 3/4;
     font-size: 25px;
-    color: white;
     margin: auto;
 
+}
+
+div.adoptera-katt a{
+    color: white;
+    text-decoration: none;
+}
+
+div.lämna-katt a{
+    color: white;
+    text-decoration: none;
+}
+
+div.login a{
+    color: white;
+    text-decoration: none;
+}
+
+div.skapa-konto a{
+    color: white;
+    text-decoration: none;
 }
 
 div.lämna-katt{
@@ -83,17 +100,21 @@ p{
 }
 
 .hamburgare_meny{
-    display: none;  
+    visibility: hidden;  
     grid-template-columns: (3, 1fr);
     grid-template-rows: (4, 1fr);
     width: 103px;
-    height: 336px;
+    height: 0px;
     background-color: #C5DEFF;
-    position: absolute; 
+    position: absolute;
+    transition: 0.25s;
+    overflow: hidden;
 }
 
 .show{
-    display: grid;
+    visibility: visible;
+    height: 336px;
+    transition: 0.25s;
 }
 
 i.material-icons{
@@ -180,4 +201,65 @@ img.image9{
     grid-row: 1/2;
     grid-column: 3/4;
 
+}
+
+div.katt1{
+    grid-row: 2/4;
+    grid-column: 1/2;    
+}
+
+
+div.katt2{
+    grid-row: 2/4;
+    grid-column: 3/4;
+}
+
+div.katt3{
+    grid-row: 5/7;
+    grid-column: 1/2;
+}
+
+div.katt4{
+    grid-row: 5/7;
+    grid-column: 3/4;
+}
+
+button.katt4{
+    text-decoration: none;
+    font-size: 20px;
+    height: 50px;
+}
+
+
+div.katt button {
+    font-size: 20px;
+    height: 50px;
+    width: 100%;
+    background-color: #F7005B;
+    color: white;
+}
+
+@media (max-width: 720px){
+    img.image1{
+        display: none;
+    }
+
+    img.image3{
+        display: none; 
+
+    }
+
+    img.image2{
+        width: 345px;
+        grid-row: 1/4;
+        grid-column: 1/7;
+       
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(8,1fr);
+        background-color:#333341;
+    }
 }
